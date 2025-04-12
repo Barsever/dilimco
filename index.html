@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dilim&co - Premium Pizza Dilimi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <header>
+        <div class="logo">
+            <h1 class="animate__animated animate__fadeIn">dilim<span>&co</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#menu">menü</a></li>
+                <li><a href="#about">hakkımızda</a></li>
+                <li><a href="#contact">iletişim</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content" data-aos="fade-right">
+            <h2 class="animate__animated animate__fadeInUp animate__delay-1s">mükemmel <span>dilim</span></h2>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Premium malzemelerle hazırlanan minimalist pizza</p>
+            <button class="order-btn animate__animated animate__fadeInUp animate__delay-2s">şimdi sipariş ver</button>
+        </div>
+        <div class="pizza-container" data-aos="fade-left">
+            <div class="pizza-image">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Pizza Dilimi">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2 data-aos="fade-up">bizim <span>menümüz</span></h2>
+        <div class="pizza-grid">
+            <div class="pizza-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="pizza-image-container">
+                    <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Margherita Pizza" class="pizza-img">
+                </div>
+                <h3>Margherita</h3>
+                <p>Domates sos, mozzarella, fesleğen</p>
+                <span class="price">185₺</span>
+            </div>
+            <div class="pizza-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="pizza-image-container">
+                    <img src="https://images.unsplash.com/photo-1594007654729-407eedc4fe24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Sucuklu Pizza" class="pizza-img">
+                </div>
+                <h3>Sucuklu</h3>
+                <p>Domates sos, mozzarella, sucuk</p>
+                <span class="price">220₺</span>
+            </div>
+            <div class="pizza-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="pizza-image-container">
+                    <img src="https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Vejetaryen Pizza" class="pizza-img">
+                </div>
+                <h3>Vejetaryen</h3>
+                <p>Domates sos, mozzarella, sebzeler</p>
+                <span class="price">195₺</span>
+            </div>
+            <div class="pizza-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="pizza-image-container">
+                    <img src="https://images.unsplash.com/photo-1601924582970-9238bcb495d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Özel Pizza" class="pizza-img">
+                </div>
+                <h3>Özel</h3>
+                <p>Şefin mevsimlik malzemelerle hazırladığı özel pizza</p>
+                <span class="price">250₺</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content" data-aos="fade-up">
+            <h2>hakkımız<span>da</span></h2>
+            <p>dilim&co olarak, sadeliğe ve kaliteye inanıyoruz. Minimalist yaklaşımımız, en önemli şeye odaklanır - premium malzemelerle hazırlanmış lezzetli pizza.</p>
+            <p>Her dilim, gelenek ve yeniliğin hikayesini anlatır ve size mükemmel lezzet dengesini sunar.</p>
+            <div class="about-features">
+                <div class="feature" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">🌱</div>
+                    <h3>Taze Malzemeler</h3>
+                    <p>Sadece en taze ve kaliteli malzemeleri kullanıyoruz.</p>
+                </div>
+                <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">🔥</div>
+                    <h3>Özel Fırın</h3>
+                    <p>İtalyan taş fırınımızda pişirilen mükemmel dilimler.</p>
+                </div>
+                <div class="feature" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Hızlı Servis</h3>
+                    <p>Siparişiniz hazırlanır hazırlanmaz sizlerle buluşuyor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 data-aos="fade-up">bizimle <span>iletişime geç</span></h2>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <p><strong>Adres:</strong> Vural Sokaka 24/A, Eskişehir</p>
+                <p><strong>Telefon:</strong> 0222 555 67 89</p>
+                <p><strong>Çalışma Saatleri:</strong> Salı-Pazar, 11:00-22:00</p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12238.558702256405!2d30.5229195!3d39.7767769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cc3e08576237b1%3A0x1d0ccd3cc6e1680!2sEski%C5%9Fehir%2C%20T%C3%BCrkiye!5e0!3m2!1str!2str!4v1649932214567!5m2!1str!2str" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <form class="contact-form" data-aos="fade-left">
+                <input type="text" placeholder="İsim" required>
+                <input type="email" placeholder="E-posta" required>
+                <input type="tel" placeholder="Telefon" required>
+                <textarea placeholder="Mesaj" required></textarea>
+                <button type="submit">gönder</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo footer-logo">
+                <h2>dilim<span>&co</span></h2>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon">Instagram</a>
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Twitter</a>
+            </div>
+            <div class="footer-info">
+                <p>Vural Sokaka 24/A, Eskişehir</p>
+                <p>0222 555 67 89</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 dilim&co. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
