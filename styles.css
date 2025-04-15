@@ -1044,3 +1044,193 @@ footer {
         flex-direction: column;
     }
 }
+/* Mobil uyumluluk - 768px ve altı */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 5vw 10px 5vw;
+    }
+    .logo {
+        font-size: 1.6rem;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #232526;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 99;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul.active {
+        display: flex;
+    }
+    nav ul li {
+        margin: 0;
+        border-bottom: 1px solid #292929;
+        width: 100%;
+        text-align: left;
+    }
+    .mobile-nav-toggle {
+        display: flex !important;
+        flex-direction: column;
+        cursor: pointer;
+        gap: 5px;
+        margin-left: auto;
+        z-index: 100;
+    }
+    .mobile-nav-toggle span {
+        display: block;
+        width: 28px;
+        height: 3px;
+        background: #E0E0E0;
+        border-radius: 2px;
+    }
+    .hero {
+        padding: 40px 4vw 30px 4vw;
+    }
+    .hero h2, .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .pizza-grid {
+        grid-template-columns: 1fr !important;
+        gap: 24px;
+    }
+    .pizza-item {
+        max-width: 100%;
+    }
+    .about-features {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .about-content {
+        padding: 0 2vw;
+    }
+    .contact-container {
+        flex-direction: column;
+        padding: 0 2vw;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 20px 2vw;
+    }
+    .footer-logo h2 {
+        font-size: 1.3rem;
+    }
+    .footer-info, .footer-social {
+        font-size: 0.95rem;
+    }
+    /* Mobilde cursor efektlerini gizle */
+    .cursor, .cursor-follower {
+        display: none !important;
+    }
+}
+
+/* Hamburger menü toggle'u desktopta gizle */
+.mobile-nav-toggle {
+    display: none;
+}
+/* Mobil uyumluluk - 768px ve altı */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 5vw 10px 5vw;
+    }
+    .logo {
+        font-size: 1.6rem;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #232526;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 99;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul.active {
+        display: flex;
+    }
+    nav ul li {
+        margin: 0;
+        border-bottom: 1px solid #292929;
+        width: 100%;
+        text-align: left;
+    }
+    .mobile-nav-toggle {
+        display: flex !important;
+        flex-direction: column;
+        cursor: pointer;
+        gap: 5px;
+        margin-left: auto;
+        z-index: 100;
+    }
+    .mobile-nav-toggle span {
+        display: block;
+        width: 28px;
+        height: 3px;
+        background: #E0E0E0;
+        border-radius: 2px;
+    }
+    .hero {
+        padding: 40px 4vw 30px 4vw;
+    }
+    .hero h2, .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .pizza-grid {
+        grid-template-columns: 1fr !important;
+        gap: 24px;
+    }
+    .pizza-item {
+        max-width: 100%;
+    }
+    .about-features {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .about-content {
+        padding: 0 2vw;
+    }
+    .contact-container {
+        flex-direction: column;
+        padding: 0 2vw;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 20px 2vw;
+    }
+    .footer-logo h2 {
+        font-size: 1.3rem;
+    }
+    .footer-info, .footer-social {
+        font-size: 0.95rem;
+    }
+    /* Mobilde cursor efektlerini gizle */
+    .cursor, .cursor-follower {
+        display: none !important;
+    }
+}
+
+/* Hamburger menü toggle'u desktopta gizle */
+.mobile-nav-toggle {
+    display: none;
+}
